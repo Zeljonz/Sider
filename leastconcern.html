@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sider</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+    <!--LOGO-->
+    <img src="images/logo.jpg" style="width: 25%; height: 10%;"  alt="...">
+     <!--NAVIGATION BAR-->
+     <nav class="navbar navbar-expand-lg nav-justified navbar-light bg-light">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav mr-auto">
+           <li class="nav-item">
+             <a class="nav-link" href="home.html">Home </a>
+           </li>
+           <li class="nav-item dropdown">
+             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               About
+             </a>
+             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+               <a class="dropdown-item" href="ourstory.html">Our story</a>
+               <a class="dropdown-item" href="ourteam.html">Our team</a>
+           </li>
+           <li class="nav-item dropdown active">
+                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     Species
+                   </a>
+                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                     <a class="dropdown-item" href="endagered.html">Endagered</a>
+                     <a class="dropdown-item" href="#">Endemics</a>
+                     <a class="dropdown-item" href="#">Vulnerable</a>
+                     <a class="dropdown-item" href="leastconcern.html">Least Concern</a>
+                
+                 </li>
+                 <li class="nav-item dropdown">
+                       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                         Floral Tourism
+                       </a>
+                       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                         <a class="dropdown-item" href="#">Book a tour</a>
+                         <a class="dropdown-item" href="review.html">Reviews</a>                                  
+                     </li>
+                     <li class="nav-item ">
+                           <a class="nav-link" href="#">Blog </a>
+                         </li>
+                         <li class="nav-item">
+                               <a class="nav-link" href="contact.html">Contact </a>
+                             </li>
+                             <button class="btn my-2 my-sm-0 loginButton" type="submit" data-toggle="modal" data-target="#loginModal">Log
+                              in</button>
+                              <button class="btn btn-outline-danger my-2 my-sm-0 signUpButton" type="submit"><a
+                                href="registerpage.html">Register</a></button>
+       </div>
+     </nav>
+     <!-- LOGIN MODAL -->
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    Email address
+                    <input type="email" class="form-control">
+                </div>
+                <div class="form-group">
+                    Password
+                    <input type="password" class="form-control">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-outline-danger signUpButton">Login</button>
+            </div>
+        </div>
+    </div>
+</div>
+                
+<h2 style="text-align: center;">Least concern</h2>
+<br>
+      <h4 style="padding-left: 24px ;">Gentiana punctata L</h4>
+       <br>
+   <img src="images/Gentiana punctata L.jpg" src="" width="20%" height="20%" style="float: left; padding-left: 20px;">
+       <p style="margin-left: 15px;">Gentiana punctata, the spotted gentian, is a least concern herbaceous species of flowering plant 
+        in the Gentian family Gentianaceae. It grows in Central and Southeastern Europe at 
+        altitudes 1.500−2.600 meters. It is 20−60 cm tall. </p>
+         <p class="read-more"><a href="gentliana.html" class="btn" style="border: solid" >Read More</a></p>
+         <br>
+         <h4 style="padding-left: 24px ;">Gentiana punctata L</h4>
+       <br>
+   <img src="images/Lilium albanicum.jpg" src="" width="20%" height="20%" style="float: left; padding-left: 20px;">
+       <p style="margin-left: 15px;">Perennial, up to 60 cm tall bulbous plant.
+            Bulb of medium size, reddish. Tree erect, slender, bare and leafless in the lower part
+             and upwards with alternately arranged, mutually compacted, linearly lanceolate leaves.  </p>
+         <p class="read-more"><a href="liliumalbanicum.html" class="btn" style="border: solid" >Read More</a></p>
+         <br>
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+ integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" 
+ integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
